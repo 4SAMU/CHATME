@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   mydata: {
+    height
     backgroundColor: "red",
   },
 });
