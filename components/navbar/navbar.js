@@ -27,7 +27,7 @@ export const Navbar = () => {
           <Text>Setting</Text>
           <Text>Group</Text>
           <Text>Dms</Text>
-          <Text>Dms</Text>
+          <Text>Bot</Text>
           <Text>Log out</Text>
         </View>
       )}
