@@ -11,7 +11,7 @@ const App = () => {
 
 const styles=StyleSheet.create({
   container:{
-    flex
+    flex:1
   }
 })
 
