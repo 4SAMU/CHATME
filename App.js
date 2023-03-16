@@ -27,7 +27,7 @@ const DATA = [
   },
 ];
 
-export const App = () => (
+export default const App = () => (
   <SafeAreaView style={styles.container}>
     <SectionList
       sections={DATA}
