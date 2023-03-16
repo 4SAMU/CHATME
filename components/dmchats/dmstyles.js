@@ -5,7 +5,7 @@ const dmStyles = StyleSheet.create({
     backgroundColor: "red",
     marginTop: 50,
     width: "100%",
-    height: "95%",
+    height: "94%",
     marginLeft: 0,
   },
   items: {
