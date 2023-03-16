@@ -9,7 +9,7 @@ const App = () => {
       <StatusBar barStyle="default" />
       <Navbar />
       <View style={styles.content}>
-        <
+        
       </View>
     </SafeAreaView>
   );
