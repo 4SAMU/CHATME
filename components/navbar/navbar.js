@@ -24,7 +24,7 @@ export const Navbar = () => {
       drawerWidth={250}
       drawerPosition="right"
       renderNavigationView={() => (
-        <View style={[navStyles.drawer, {height, zIndex:1}]}>
+        <View style={[navStyles.drawer, { height, zIndex: 1 }]}>
           <Text style={navStyles.drawerText}>
             <Icon name="settings" size={25} color="#fff" /> Setting
           </Text>
