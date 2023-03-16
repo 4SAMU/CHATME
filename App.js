@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: StatusBar.currentHeight,
     marginHorizontal: 16,
-    ali
+    alignItems
   },
   item: {
     backgroundColor: "#f9c2ff",
