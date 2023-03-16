@@ -11,7 +11,7 @@ const dmStyles = StyleSheet.create({
     backgroundColor: "#030C1A",
   },
   text:{
-    color
+    color:
   }
 });
 
