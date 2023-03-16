@@ -23,7 +23,7 @@ export const Navbar = () => {
       drawerWidth={250}
       drawerPosition="right"
       renderNavigationView={() => (
-        <View>
+        <View style={}>
           <Text>Drawer content</Text>
         </View>
       )}
