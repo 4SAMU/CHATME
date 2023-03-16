@@ -18,7 +18,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.nav}></View>
+      <View style={styles.navbar}></View>
       <Pressable onPress={onPressFunction}>
         <Text>I'm pressable!</Text>
       </Pressable>
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 8,
   },
-  nav: {
+  navbar: {
     height: 100,
     backgroundColor: "blue",
     alignItems: "center",
