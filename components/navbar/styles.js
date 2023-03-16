@@ -10,7 +10,7 @@ const navStyles = StyleSheet.create({
     color: "white",
     fontSize: 20,
     fontWeight: "bold",
-    marginLeft:""
+    marginLeft:
   },
 });
 
