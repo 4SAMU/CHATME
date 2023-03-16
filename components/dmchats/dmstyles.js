@@ -12,4 +12,4 @@ const dmStyles = StyleSheet.create({
   },
 });
 
-export default DmStyles;
+export default dmStyles;
