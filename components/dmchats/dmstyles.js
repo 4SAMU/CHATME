@@ -7,8 +7,6 @@ const dmStyles = StyleSheet.create({
   container: {
     width: "100%",
     height: DmsHeight,
-    
-
   },
   items: {
     height: DmsHeight - 60,
