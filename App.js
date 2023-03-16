@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
   },
   content: {
     flex: 1,
-    zIndex:
+    zIndex:1,
     width: "100%", // specify the width to fill the screen
   },
 });
