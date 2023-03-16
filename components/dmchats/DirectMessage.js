@@ -7,7 +7,7 @@ console.log("height", DmsHeight);
 
 const DirectMessage = () => {
   return (
-    <View style={[dmStyles.container, {}]}>
+    <View style={[dmStyles.container, {DmsHeight}]}>
       <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
