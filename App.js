@@ -16,7 +16,7 @@ export default App;
 
 const styles = StyleSheet.create({
   container: {
-   
+   position:
     backgroundColor: "#fff",
   },
 });
