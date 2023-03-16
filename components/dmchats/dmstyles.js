@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const DStyles = StyleSheet.create({
+const ndStyles = StyleSheet.create({
   container: {
     marginTop: 60,
     flex: 1,
