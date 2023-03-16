@@ -23,7 +23,7 @@ const dmStyles = StyleSheet.create({
     borderRadius: 2,
     width: width - 10,
     marginTop: 10,
-    alignItems:'center'
+    alignItems: "center",
   },
   userimg: {
     width: 50,
