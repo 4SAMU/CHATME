@@ -7,7 +7,7 @@ const navStyles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    padd: 10,
+    paddingLeft: 10,
   },
   text: {
     color: "white",
