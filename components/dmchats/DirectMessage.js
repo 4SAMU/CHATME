@@ -11,7 +11,7 @@ const DirectMessage = () => {
       >
         <View style={dmStyles.box}>
           <Image
-            style={dmStyles.tinyLogo}
+            style={dmStyles.u}
             source={require("@expo/snack-static/react-native-logo.png")}
           />
           <Text style={dmStyles.text}>Mama</Text>
