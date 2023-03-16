@@ -3,7 +3,7 @@ import { View } from "react-native/types";
 
 export const navbar = () => {
   return (
-    <View styles=>
+    <View styles={}>
       <Text></Text>
     </View>
   );
