@@ -4,7 +4,7 @@ import DmStyles from "./styles";
 
 export const dms = () => {
   return (
-    <View style={DmStyles.container}>
+    <ScrollView style={DmStyles.container}>
       <View style={DmStyles.box}></View>
       <View style={DmStyles.box}></View>
       <View style={DmStyles.box}></View>
