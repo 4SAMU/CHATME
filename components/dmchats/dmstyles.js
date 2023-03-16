@@ -1,6 +1,7 @@
 import { Dimensions, StyleSheet } from "react-native";
 const { height } = Dimensions.get("window");
 const DmsHeight = height - 50;
+
 const dmStyles = StyleSheet.create({
   container: {
     backgroundColor: "red",
