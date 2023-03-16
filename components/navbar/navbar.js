@@ -52,6 +52,7 @@ export const Navbar = () => {
           </View>
         </TouchableOpacity>
       </View>
+      
     </DrawerLayoutAndroid>
   );
 };
