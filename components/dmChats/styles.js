@@ -1,6 +1,6 @@
 import React from 'react'
 
-const D = StyleSheet.create({
+const Dm = StyleSheet.create({
   return (
   
 })
