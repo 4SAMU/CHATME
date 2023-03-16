@@ -1,4 +1,4 @@
-import { StatusBar, StyleSheet, Text, View } from "react-native";
+import { ImageBackground, StatusBar, StyleSheet, Text, View } from "react-native";
 
 const image = {uri: 'https://reactjs.org/logo-og.png'};
 
