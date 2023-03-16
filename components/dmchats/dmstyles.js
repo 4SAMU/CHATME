@@ -20,6 +20,7 @@ const dmStyles = StyleSheet.create({
     backgroundColor: "red",
     padding: 10,
     justifyContent: "center",
+    bord
   },
 });
 
