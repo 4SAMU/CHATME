@@ -7,7 +7,7 @@ export const DirectMessage = () => {
     <View>
       <View style={dmStyles.container}>
         <View style={dmStyles.box}>
-          <t
+          <Text></Text>
 
         </View>
       </View>
