@@ -24,7 +24,8 @@ const dmStyles = StyleSheet.create({
     marginTop: 4,
   },
   userimg:{
-    
+    width: 50,
+    height: 50,
   }
 });
 
