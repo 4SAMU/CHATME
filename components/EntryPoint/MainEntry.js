@@ -12,7 +12,6 @@ import { DirectMessage } from "../dmchats/DirectMessage";
 const { width } = Dimensions.get("window");
 const { height } = Dimensions.get("window");
 
-
 export const MainEntry = () => {
   const drawerRef = useRef(null);
 
