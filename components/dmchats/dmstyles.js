@@ -4,7 +4,7 @@ const dmStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#030C1A",
-    margin:10p,
+    margin:10,
   },
   items: {
     height: 0,
