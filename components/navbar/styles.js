@@ -21,8 +21,7 @@ const navStyles = StyleSheet.create({
   },
   drawerText: {
     flex: 1,
-    color: "#fff",
-
+    backgroundColor: "#FFBB36",
     padding: 20,
     fontWeight: "bold",
   },
