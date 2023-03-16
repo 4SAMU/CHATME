@@ -2,6 +2,8 @@ import React from "react";
 import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable } from "react-native";
 
 export default App = () => (
+
+  
   <SafeAreaView style={styles.container}>
     <Pressable onPress={onPressFunction}>
       <Text>I'm pressable!</Text>
