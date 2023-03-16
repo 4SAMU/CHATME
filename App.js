@@ -18,10 +18,11 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.navbar}><Pressable onPress={onPressFunction}>
-        <Text>I'm pressable!</Text>
-      </Pressable></View>
-      
+      <View style={styles.navbar}>
+        <Pressable onPress={onPressFunction}>
+          <Text>I'm pressable!</Text>
+        </Pressable>
+      </View>
     </SafeAreaView>
   );
 };
