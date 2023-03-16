@@ -11,6 +11,8 @@ import {
 } from "react-native";
 import { Naame } from "./zip";
 
+const { width } = Dimensions.get('window');
+
 const App = () => {
   function onPressFunction() {
     let x = Naame();
