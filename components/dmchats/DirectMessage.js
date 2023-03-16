@@ -4,7 +4,7 @@ import dmStyles from "./dmstyles";
 
 const DirectMessage = () => {
   return (
-    <View style={dmStyles.container, zIndex: 0}>
+    <View style={dmStyles.container, }>
       <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
