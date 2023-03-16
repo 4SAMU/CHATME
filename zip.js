@@ -5,3 +5,5 @@ function name() {
   let result = A.map((obj, i) => [obj, B[i]]);
   console.log(result);
 }
+
+
