@@ -1,4 +1,7 @@
 import { StyleSheet } from "react-native";
+const { height } = Dimensions.get("window");
+const DmsHeight = height - 50;
+console.log("height", DmsHeight);
 
 const dmStyles = StyleSheet.create({
   container: {
