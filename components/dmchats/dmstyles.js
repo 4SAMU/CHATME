@@ -22,6 +22,7 @@ const dmStyles = StyleSheet.create({
     padding: 10,
     justifyContent: "center",
     borderRadius: 2,
+    width: width - 10,
   },
 });
 
