@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const navStyles = StyleSheet.create({
   navbar: {
-    position:'absolute',
+    position: "absolute",
     height: 50,
     backgroundColor: "#FFBB36",
     flexDirection: "row",
@@ -19,7 +19,6 @@ const navStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FFBB36",
     padding: 20,
-    
   },
   drawerText: {
     color: "#fff",
