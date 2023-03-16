@@ -24,6 +24,7 @@ const dmStyles = StyleSheet.create({
     justifyContent: "center",
     borderRadius: 2,
     width: width - 10,
+    ma
   },
 });
 
