@@ -10,7 +10,7 @@ const dmStyles = StyleSheet.create({
     marginLeft: 0,
   },
   items: {
-    height: dm,
+    height: DmsHeight,
     backgroundColor: "#030C1A",
   },
   text: {
