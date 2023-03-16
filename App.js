@@ -5,7 +5,7 @@ import { Navbar } from "./components/navbar/navbar";
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="default" backgroundColor="red" />
+      <StatusBar barStyle="default" backgroundColor="" />
       <Navbar />
     </SafeAreaView>
   );
