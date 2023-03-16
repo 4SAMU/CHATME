@@ -21,7 +21,7 @@ export const Navbar = () => {
     <DrawerLayoutAndroid
       ref={drawerRef}
       drawerWidth={250}
-      drawerPosition="left"
+      drawerPosition="right"
       renderNavigationView={() => (
         <View>
           <Text>Drawer content</Text>
