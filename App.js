@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView } from 'react-native/types'
+import { Pressable, SafeAreaView } from 'react-native/types'
 
 const App = () => {
   function name() {
