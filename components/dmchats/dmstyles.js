@@ -6,7 +6,6 @@ const dmStyles = StyleSheet.create({
     backgroundColor: "#030C1A",
   },
   items: {
-    height: 0,
     backgroundColor: "#030C1A",
   },
   text: {
