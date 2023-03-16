@@ -5,7 +5,7 @@ const image = {uri: 'https://reactjs.org/logo-og.png'};
 export default function App() {
   return (
     <View style={styles.container}>
-      
+        <ImageBackground source={image} resizeMode="cover" style={styles.image}></ImageBackground>
       <View style={styles.nav}></View>
       <Text style={styles.Text}>
         Open up App.js to start working on your app!
