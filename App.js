@@ -11,7 +11,7 @@ export default App = () => (
 
 
   <SafeAreaView style={styles.container}>
-    <Pressable onPress={}>
+    <Pressable onPress={name}>
       <Text>I'm pressable!</Text>
     </Pressable>
   </SafeAreaView>
