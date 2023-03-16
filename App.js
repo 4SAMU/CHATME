@@ -6,7 +6,7 @@ const TextInputExample = () => {
   const [number, onChangeNumber] = React.useState("");
 
   return (
-    <SafeAreaView>
+    <Vi>
       <TextInput
         style={styles.input}
         onChangeText={onChangeText}
@@ -19,7 +19,7 @@ const TextInputExample = () => {
         placeholder="useless placeholder"
         keyboardType="numeric"
       />
-    </SafeAreaView>
+    </Vi>
   );
 };
 
