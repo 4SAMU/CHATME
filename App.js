@@ -1,12 +1,22 @@
-import { ImageBackground, StatusBar, StyleSheet, Text, View } from "react-native";
+import {
+  ImageBackground,
+  StatusBar,
+  StyleSheet,
+  Text,
+  View,
+} from "react-native";
 
-const image = {uri: 'https://reactjs.org/logo-og.png'};
+const image = { uri: "https://reactjs.org/logo-og.png" };
 
 export default function App() {
   return (
     <View style={styles.container}>
-        <ImageBackground source={image} resizeMode="cover" style={styles.image}></ImageBackground>
-      <View style={styles.nav}></View>      
+      <ImageBackground
+        source={image}
+        resizeMode="cover"
+        style={styles.image}
+      ></ImageBackground>
+      <View style={styles.nav}></View>
       <StatusBar style="auto" />
     </View>
   );
@@ -18,14 +28,14 @@ const styles = StyleSheet.create({
   },
   image: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: "center",
   },
   text: {
-    color: 'white',
+    color: "white",
     fontSize: 42,
     lineHeight: 84,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    backgroundColor: '#000000c0',
+    fontWeight: "bold",
+    textAlign: "center",
+    backgroundColor: "#000000c0",
   },
 });
