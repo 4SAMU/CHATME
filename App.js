@@ -9,7 +9,7 @@ const App = () => {
       <StatusBar barStyle="default" />
       <Navbar />
       <View style={styles.mydata}>
-        <Text ></Text>
+        <Text >wewwe</Text>
         <DirectMessage />
       </View>
     </SafeAreaView>
