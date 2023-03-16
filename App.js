@@ -4,7 +4,7 @@ import { Naame } from "./zip";
 
 export default App = () => (
  function name(params) {
-  
+  let x=Naame();
  }
 
 
