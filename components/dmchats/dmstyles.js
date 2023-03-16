@@ -21,7 +21,7 @@ const dmStyles = StyleSheet.create({
     backgroundColor: "gray",
     paddingLeft: 10,
     borderRadius: 2,
-    width: width - 50,
+    width: width - 10,
     marginTop: 10,
     alignItems:'center'
   },
