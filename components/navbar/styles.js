@@ -22,7 +22,6 @@ const navStyles = StyleSheet.create({
   drawerText: {
     color: "#fff",
     fontSize: 20,
-
     padding: 20,
     fontWeight: "bold",
   },
