@@ -5,7 +5,7 @@ const { width } = Dimensions.get('window');
 
 export const Navbar = () => {
   return (
-    <View styles={[navStyles.navbar, {}]}>
+    <View styles={[navStyles.navbar, {wi}]}>
       <Text styles={navStyles.text}>hello</Text>
     </View>
   );
