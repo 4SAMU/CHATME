@@ -6,5 +6,3 @@ export function Naame() {
   console.log(result);
   return result;
 }
-
- 
