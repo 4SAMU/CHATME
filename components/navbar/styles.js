@@ -14,6 +14,7 @@ const navStyles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
   },
+  draw
 });
 
 export default navStyles;
