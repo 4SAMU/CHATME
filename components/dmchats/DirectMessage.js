@@ -12,7 +12,7 @@ const DirectMessage = () => {
         <View style={dmStyles.box}>
           <Image
             style={dmStyles.userimg}
-            source={{uri:https://gallery-store-api.vercel.app/files/63f38cb6cb8b99f477d87474}}
+            source={{uri:}}
           />
           <Text style={dmStyles.text}>Mama</Text>
         </View>
