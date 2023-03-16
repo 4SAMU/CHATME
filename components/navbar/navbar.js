@@ -7,10 +7,7 @@ export const Navbar = () => {
   return (
     <View style={[navStyles.navbar, { width }]}>
       <Text styles={navStyles.navText}>ChatMe</Text>
-      <Text styles={navStyles.navText}>ChatMe</Text>
-      <Text styles={navStyles.navText}>ChatMe</Text>
-      <Text styles={navStyles.navText}>ChatMe</Text>
-      <Text styles={navStyles.navText}>ChatMe</Text>
+      
     </View>
   );
 };
