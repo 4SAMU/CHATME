@@ -24,7 +24,6 @@ export const Navbar = () => {
       drawerPosition="right"
       renderNavigationView={() => (
         <View style={navStyles.drawer}>
-          <Text>Drawer content</Text>
         </View>
       )}
     >
