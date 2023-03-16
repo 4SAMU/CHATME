@@ -12,7 +12,7 @@ const DirectMessage = () => {
         <View style={dmStyles.box}>
           <Image
             style={dmStyles.userimg}
-            source={{}}
+            source={{uri}}
           />
           <Text style={dmStyles.text}>Mama</Text>
         </View>
