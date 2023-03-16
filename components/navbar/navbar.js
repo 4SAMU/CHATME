@@ -5,7 +5,7 @@ export const navbar = () => {
 
   return (
     <View>
-      <Text
+      <Text></Text>
 
     </View>
   )
