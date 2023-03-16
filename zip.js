@@ -6,4 +6,4 @@ function name() {
   console.log(result);
 }
 
-name
+name()
