@@ -4,7 +4,6 @@ const DmStyles = StyleSheet.create({
   box: {
     height: 60,
     backgroundColor: "#FFBB36",
-
   },
 });
 
