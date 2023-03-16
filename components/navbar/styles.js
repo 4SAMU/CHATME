@@ -2,8 +2,6 @@ import { StyleSheet } from "react-native";
 
 const navStyles = StyleSheet.create({
   navbar: {
-    position:'absolute',
-    width: "100%",
     height: 50,
     backgroundColor: "#FFBB36",
     flexDirection: "row",
