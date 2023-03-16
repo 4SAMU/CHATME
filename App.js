@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StatusBar, StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     alignItems: "center",
     justifyContent: "center",
-    paddingTop: statusbar.currentHeight,
+    paddingTop: StatusBar.currentHeight,
   },
   Text: {
     color: "#fff",
