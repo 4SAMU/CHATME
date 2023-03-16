@@ -13,7 +13,7 @@ const dmStyles = StyleSheet.create({
   },
   text: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 10,
   },
   box: {
     flexDirection: "row",
