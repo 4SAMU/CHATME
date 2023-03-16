@@ -38,9 +38,10 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
   nav: {
-    fontSize: 32,
-    backgroundColor: "blue",
-    width: "100%",
+    height: 100,
+    backgroundColor: 'blue',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   title: {
     fontSize: 24,
