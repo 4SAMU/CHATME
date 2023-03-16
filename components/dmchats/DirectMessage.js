@@ -1,5 +1,5 @@
 import React from "react";
-import { ScrollView, Text, View } from "react-native";
+import { Image, ScrollView, Text, View } from "react-native";
 import dmStyles from "./dmstyles";
 
 const DirectMessage = () => {
@@ -10,7 +10,7 @@ const DirectMessage = () => {
         style={dmStyles.items}
       >
         <View style={dmStyles.box}>
-          <Im
+          <Image
           <Text style={dmStyles.text}>Mama</Text>
         </View>
         <View style={dmStyles.box}>
