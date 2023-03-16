@@ -6,6 +6,7 @@ export const navbar = () => {
   return (
     <View>
       
+
     </View>
   )
 }
