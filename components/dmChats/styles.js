@@ -2,6 +2,7 @@ import { StyleSheet } from "react-native";
 
 const DmStyles = StyleSheet.create({
   container: {
+    
     flex: 1,
     display: "flex",
   },
