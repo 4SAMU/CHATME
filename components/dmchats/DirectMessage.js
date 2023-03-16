@@ -6,7 +6,7 @@ const DirectMessage = () => {
   return (
     <ScrollView style={dmStyles.container}>
       <View style={dmStyles.items}>
-       <View
+       <View></View>
       </View>
     </ScrollView>
   );
