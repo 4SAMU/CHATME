@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { Dimensions, Text, View } from "react-native";
 import dmStyles from "./dmstyles";
 const { height } = Dimensions.get("window");
 const DmsHeight = height - 50;
