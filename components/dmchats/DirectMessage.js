@@ -8,7 +8,6 @@ export const DirectMessage = () => {
       <View style={dmStyles.container}>
         <View style={dmStyles.box}>
           <Text></Text>
-
         </View>
       </View>
     </View>
