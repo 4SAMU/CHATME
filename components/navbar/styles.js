@@ -9,7 +9,7 @@ const navStyles = StyleSheet.create({
     alignItems: "center",
     padding: 10,
   },
-  ti: {
+  navText: {
     color: "#20232a",
     fontSize: 20,
     fontWeight: "bold",
