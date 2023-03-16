@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, View } from "react-native";
+import { SafeAreaView, StyleSheet, View } from "react-native";
 
 const App = () => {
   return (
@@ -9,6 +9,6 @@ const App = () => {
   );
 };
 
-const styles=sty
+const styles=StyleSheet.create
 
 export default App;
