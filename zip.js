@@ -1,6 +1,6 @@
 export function Naame() {
   
-  let result = "";
+  let result = "Sam";
   return result;
 }
 
