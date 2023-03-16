@@ -8,8 +8,11 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="default" />
       <Navbar />
-     
-      <View> <DirectMessage /></View>
+
+      <View>
+        {" "}
+        <DirectMessage />
+      </View>
     </SafeAreaView>
   );
 };
