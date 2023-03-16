@@ -25,9 +25,7 @@ export const Navbar = () => {
       renderNavigationView={() => (
         <View style={navStyles.drawer}>
           <Text style={navStyles.drawerText}>
-            <Icon name="settings" size={25} color="#fff" />
-            {" "}
-            Setting
+            <Icon name="settings" size={25} color="#fff" /> Setting
           </Text>
           <Text style={navStyles.drawerText}>Group</Text>
           <Text style={navStyles.drawerText}>DMs</Text>
