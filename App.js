@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     backgroundColor: "#fff",
     width:"100"
+    
   },
   title: {
     fontSize: 24,
