@@ -25,6 +25,8 @@ export const Navbar = () => {
       renderNavigationView={() => (
         <View style={navStyles.drawer}>
           <Text>Drawer content</Text>
+          <Text>Drawer content</Text>
+          <Text>Drawer content</Text>
         </View>
       )}
     >
