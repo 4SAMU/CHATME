@@ -18,17 +18,16 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    paddingTop: StatusBar.currentHeight,
   },
-  image: {
-    flex: 1,
-    justifyContent: 'center',
+  Text: {
+    color: "#fff",
   },
-  text: {
-    color: 'white',
-    fontSize: 42,
-    lineHeight: 84,
-    fontWeight: 'bold',
-    textAlign: 'center',
-    backgroundColor: '#000000c0',
+  nav: {
+    position: "absolute",
+    width: "100%",
+    backgroundColor: "yellow",
   },
 });
