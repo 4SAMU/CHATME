@@ -14,6 +14,8 @@ const App = () => {
       </Pressable>
     </SafeAreaView>
   );
+
+  
 };
 
 export default App;
