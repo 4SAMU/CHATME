@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     backgroundColor: "blue",
     width: "100%",
-    height: "100,
+    height: 100,
   },
   title: {
     fontSize: 24,
