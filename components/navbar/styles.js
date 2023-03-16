@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const navStyles = StyleSheet.create({
   navbar: {
-    height: 70,
+    height: 0,
     backgroundColor: "yellow",
     alignItems: "center",
     justifyContent: "center",
