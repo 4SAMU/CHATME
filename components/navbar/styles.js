@@ -19,8 +19,7 @@ const navStyles = StyleSheet.create({
     flexDirection: "row",
 
     backgroundColor: "#FFBB36",
-    padding:20
-    
+    padding: 20,
   },
 });
 
