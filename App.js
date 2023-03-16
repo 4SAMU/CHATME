@@ -28,8 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: StatusBar.currentHeight,
     marginHorizontal: 16,
-    alignItems:"center"
-
+    alignItems: "center",
   },
   item: {
     backgroundColor: "#f9c2ff",
@@ -39,8 +38,7 @@ const styles = StyleSheet.create({
   nav: {
     fontSize: 32,
     backgroundColor: "blue",
-    width:"100"
-
+    width: "100",
   },
   title: {
     fontSize: 24,
