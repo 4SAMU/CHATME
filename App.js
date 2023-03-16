@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
   },
   nav: {
     height: 100,
-    backgroundColor: 'blue',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "blue",
+    alignItems: "center",
+    justifyContent: "center",
   },
   title: {
     fontSize: 24,
