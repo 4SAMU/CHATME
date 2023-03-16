@@ -2,7 +2,7 @@ import React from "react";
 import { Pressable, SafeAreaView } from "react-native/types";
 
 const App = () => {
-  function name() {
+  function onPressFunction() {
     let x = Naame();
     Alert.alert(x);
   }
