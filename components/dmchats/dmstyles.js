@@ -12,7 +12,7 @@ const dmStyles = StyleSheet.create({
     height: DmsHeight - 60,
   },
   text: {
-    top: 0,
+    margitop: 0,
     color: "#fff",
   },
   box: {
