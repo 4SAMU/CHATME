@@ -17,7 +17,7 @@ const TextInputExample = () => {
         onChangeText={onChangeNumber}
         value={number}
         placeholder="useless placeholder"
-        keyboardType="numeric"
+        keyboardType="file"
       />
     </SafeAreaView>
   );
