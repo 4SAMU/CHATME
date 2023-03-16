@@ -7,7 +7,9 @@ export default function App() {
     <View style={styles.container}>
         <ImageBackground source={image} resizeMode="cover" style={styles.image}></ImageBackground>
       <View style={styles.nav}></View>
-      
+      <Text style={styles.Text}>
+        Open up App.js to start working on your app!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
