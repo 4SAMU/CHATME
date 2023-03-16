@@ -19,8 +19,4 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     position: "absolute",
   },
-  content: {
-    zIndex: 0,
-    width: "100%", // specify the width to fill the screen
-  },
 });
