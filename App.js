@@ -1,10 +1,12 @@
-import React from "react";
-import { SafeAreaView } from "react-native/types";
+import React from 'react'
+import { SafeAreaView } from 'react-native/types'
 
 const App = () => {
-  return <SafeAreaView>
-    
-  </SafeAreaView>;
-};
 
-export default App;
+
+  return (
+    <SafeAreaView></SafeAreaView>
+  )
+}
+
+export default App
