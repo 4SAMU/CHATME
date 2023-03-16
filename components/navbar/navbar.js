@@ -1,6 +1,7 @@
 import React from "react";
 import { Dimensions, Text, TouchableOpacity, View } from "react-native";
 import navStyles from "./styles";
+import Icon from "react-native-vector-icons/Feather";
 const { width } = Dimensions.get("window");
 
 export const Navbar = () => {
