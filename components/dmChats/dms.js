@@ -1,8 +1,6 @@
-import React from 'react'
-import { View } from 'react-native-web'
+import React from "react";
+import { View } from "react-native";
 
 export const dms = () => {
-  return (
-    <View></View>
-  )
-}
+  return <View></View>;
+};
