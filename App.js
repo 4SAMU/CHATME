@@ -1,11 +1,11 @@
 import React from "react";
-import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable } from "react-native";
+import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable, Alert } from "react-native";
 import { Naame } from "./zip";
 
 export default App = () => (
  function name(params) {
   let x=Naame();
-  al
+  Alert.al
  }
 
 
