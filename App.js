@@ -1,9 +1,9 @@
-import React from 'react';
-import {SafeAreaView, StyleSheet, TextInput} from 'react-native';
+import React from "react";
+import { SafeAreaView, StyleSheet, TextInput } from "react-native";
 
 const TextInputExample = () => {
-  const [text, onChangeText] = React.useState('Useless Text');
-  const [number, onChangeNumber] = React.useState('');
+  const [text, onChangeText] = React.useState("Useless Text");
+  const [number, onChangeNumber] = React.useState("");
 
   return (
     <SafeAreaView>
