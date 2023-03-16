@@ -9,6 +9,6 @@ const App = () => {
   );
 };
 
-const styles=
+const styles=Sty
 
 export default App;
