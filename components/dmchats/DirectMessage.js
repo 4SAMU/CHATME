@@ -25,7 +25,7 @@ const DirectMessage = () => {
               uri: "https://gallery-store-api.vercel.app/files/63f38cb6cb8b99f477d87474",
             }}
           />
-          <Text style={dmStyles.text}>a</Text>
+          <Text style={dmStyles.text}>Baba</Text>
         </View>
         <View style={dmStyles.box}>
           <Image
