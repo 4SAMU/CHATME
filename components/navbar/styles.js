@@ -7,7 +7,7 @@ const navStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
-  title: {
+  text: {
     color: "white",
     fontSize: 20,
     fontWeight: "bold",
