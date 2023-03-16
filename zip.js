@@ -6,4 +6,4 @@ function Naame() {
   console.log(result);
 }
 
-Naame()
+Naame();
