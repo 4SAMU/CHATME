@@ -10,7 +10,7 @@ const navStyles = StyleSheet.create({
     padding: 10,
   },
   navText: {
-    color: "#20232a",
+    color: "#fff",
     fontSize: 20,
     fontWeight: "bold",
   },
