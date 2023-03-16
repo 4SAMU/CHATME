@@ -29,6 +29,7 @@ const dmStyles = StyleSheet.create({
     height: 50,
     borderRadius: "50%",
     
+
   },
 });
 
