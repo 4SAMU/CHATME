@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "black",
-    position:re
+    position:rela
   },
   content: {
     flex: 1,
