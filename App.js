@@ -1,12 +1,12 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, TextInput, View } from "react-native";
+import { SafeAreaView, StyleSheet, TextInput } from "react-native";
 
 const TextInputExample = () => {
   const [text, onChangeText] = React.useState("Useless Text");
   const [number, onChangeNumber] = React.useState("");
 
   return (
-    <View>
+    <SafeAreaView>
       <TextInput
         style={styles.input}
         onChangeText={onChangeText}
@@ -19,7 +19,7 @@ const TextInputExample = () => {
         placeholder="useless placeholder"
         keyboardType="numeric"
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
