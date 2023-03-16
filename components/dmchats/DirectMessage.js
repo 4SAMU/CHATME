@@ -4,7 +4,7 @@ import dmStyles from "./dmstyles";
 
 const DirectMessage = () => {
   return (
-    <View style={dmStyles.container}>
+    
       <ScrollView
         contentContainerStyle={[dmStyles.items, { alignItems: "center" }]}
       >
