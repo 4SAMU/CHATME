@@ -4,6 +4,7 @@ import { Naame } from "./zip";
 
 export default App = () => (
   let x=Naame();
+  
 
 
   <SafeAreaView style={styles.container}>
