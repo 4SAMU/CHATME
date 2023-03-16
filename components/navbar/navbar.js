@@ -33,7 +33,9 @@ export const Navbar = () => {
           <Text style={navStyles.drawerText}>
             <Icon name="message-circle" size={25} color="#fff" /> DMS
           </Text>
-          <Text style={navStyles.drawerText}>Bot</Text>
+          <Text style={navStyles.drawerText}>
+            <Icon name="log-out" size={25} color="#fff" /> Log out
+          </Text>
           <Text style={navStyles.drawerText}>
             <Icon name="log-out" size={25} color="#fff" /> Log out
           </Text>
