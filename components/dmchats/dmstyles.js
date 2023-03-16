@@ -14,7 +14,7 @@ const dmStyles = StyleSheet.create({
   text: {
     color: "#fff",
     fontSize: 14,
-    paddingLeft:10
+    paddingLeft: 10,
   },
   box: {
     flexDirection: "row",
