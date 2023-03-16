@@ -20,6 +20,7 @@ const dmStyles = StyleSheet.create({
     flexDirection: "row",
     height: 50,
     backgroundColor: "gray",
+    paddingLeft: 10,
     borderRadius: 2,
     width: width - 10,
     marginTop: 4,
