@@ -5,7 +5,7 @@ const dmStyles = StyleSheet.create({
     flex: 1,
   },
   items: {
-    height: 50,
+    height: 0,
     backgroundColor: "#030C1A",
   },
   text: {
