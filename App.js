@@ -30,7 +30,6 @@ const DATA = [
 
 export default App = () => (
   <SafeAreaView style={styles.container}>
-    <Button></Button>
     <SectionList
       sections={DATA}
       keyExtractor={(item, index) => item + index}
