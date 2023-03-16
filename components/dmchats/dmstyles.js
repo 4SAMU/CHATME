@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const dmStyles = StyleSheet.create({
   container: {
-    fl
+    flex
     marginTop: 10,
   },
   box: {
