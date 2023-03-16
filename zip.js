@@ -4,5 +4,5 @@ function name(params) {
 
  [ [{ A: "A" },[{ z: "a" }] ], ]
 
- []
+ [{ B: "B" }]
 }
