@@ -23,6 +23,7 @@ const dmStyles = StyleSheet.create({
     width: width - 10,
     marginTop: 4,
   },
+  
 });
 
 export default dmStyles;
