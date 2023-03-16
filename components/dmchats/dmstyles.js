@@ -7,7 +7,7 @@ const dmStyles = StyleSheet.create({
     paddingTop: 60,
   },
   items: {
-    height:0
+    height:0,
     backgroundColor: "#030C1A",
   },
   text: {
