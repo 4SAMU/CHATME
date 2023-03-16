@@ -9,6 +9,6 @@ const App = () => {
   );
 };
 
-const styles=Sty
+const styles=StyleSheet
 
 export default App;
