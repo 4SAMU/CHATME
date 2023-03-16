@@ -1,6 +1,6 @@
 import React from 'react'
 
-const styles = () => {
+const navStyles = StyleSheet.create({
   return (
     <div>
       
