@@ -5,7 +5,7 @@ import DmStyles from "./styles";
 export const dms = () => {
   return (
     <View style={DmStyles.container}>
-      <View style={DmStyles.}></View>
+      <View style={DmStyles.box}></View>
     </View>
   );
 };
