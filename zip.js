@@ -1,6 +1,6 @@
 export function Naame() {
   
-  let result = A.map((obj, i) => [obj, B[i]]);
+  let result = ;
   return result;
 }
 
