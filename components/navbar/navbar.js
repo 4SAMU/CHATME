@@ -10,6 +10,7 @@ export const Navbar = () => {
       <Text styles={navStyles.text}>ChatMe</Text>
       <Text styles={navStyles.text}>ChatMe</Text>
       <Text styles={navStyles.text}>ChatMe</Text>
+      <Text styles={navStyles.text}>ChatMe</Text>
     </View>
   );
 };
