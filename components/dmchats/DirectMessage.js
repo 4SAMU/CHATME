@@ -4,6 +4,6 @@ import dmStyles from "./dmstyles";
 
 export const DirectMessage = () => {
   return (
-    
+    <vi
   );
 };
