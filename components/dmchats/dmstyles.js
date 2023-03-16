@@ -16,9 +16,9 @@ const dmStyles = StyleSheet.create({
   text: {
     color: "#fff",
   },
-  box:{
-    height:100
-  }
+  box: {
+    height: 100,
+  },
 });
 
 export default dmStyles;
