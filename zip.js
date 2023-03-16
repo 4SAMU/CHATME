@@ -8,10 +8,7 @@ export function Naame() {
 }
 
 
-function name() {
-    let x=Naame();
-    Alert.alert(x)
-   }
+
 
 
    const styles = StyleSheet.create({
