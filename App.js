@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
-import { Main } from "./components/main/main";
+import { Main } from "./components/main/MainEntry";
 
 const App = () => {
   return (
