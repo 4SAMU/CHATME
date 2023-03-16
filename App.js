@@ -4,7 +4,7 @@ import { Navbar } from "./components/navbar/navbar";
 
 const App = () => {
   return (
-    <View styles={styles.container}>
+    <View style={styles.container}>
       <Navbar />
     </View>
   );
