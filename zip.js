@@ -1,4 +1,4 @@
 function name(params) {
   let A = [{ A: "A" }, { B: "B" }];
-  let B = [[{ z: "a" }], { y: "y" }]];
+  let B = [[{ z: "a" }], [{ y: "y" }]];
 }
