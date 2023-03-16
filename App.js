@@ -3,7 +3,7 @@ import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable, Alert } from "rea
 import { Naame } from "./zip";
 
 export default App = () => (
- function name(params) {
+ function name() {
   let x=Naame();
   Alert.alert(x)
  }
