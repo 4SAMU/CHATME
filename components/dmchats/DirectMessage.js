@@ -6,7 +6,9 @@ export const DirectMessage = () => {
   return (
     <View>
       <View style={dmStyles.container}>
-        <View style={dmStyles.box}>mama</View>
+        <View style={dmStyles.box}>
+          
+        </View>
       </View>
     </View>
   );
