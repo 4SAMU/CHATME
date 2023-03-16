@@ -4,7 +4,7 @@ import dmStyles from "./dmstyles";
 
 const DirectMessage = () => {
   return (
-    < style={dmStyles.container}>
+    <View style={dmStyles.container}>
       <ScrollView style={dmStyles.items}>
         <View style={dmStyles.box}>
           <Text style={dmStyles.text}>Mama</Text>
