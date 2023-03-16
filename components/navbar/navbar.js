@@ -10,7 +10,7 @@ export const Navbar = () => {
       <Text style={navStyles.navText}>ChatMe</Text>
       <TouchableOpacity onPress={() => console.log("Menu icon pressed")}>
       <View>
-        <Icon name="menu" size={25} color="#000" />
+        <Icon name="menu" size={25} color="#fff" />
       </View>
     </TouchableOpacity>
     </View>
