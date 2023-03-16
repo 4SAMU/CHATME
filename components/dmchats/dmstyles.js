@@ -19,7 +19,6 @@ const dmStyles = StyleSheet.create({
     height: 50,
     backgroundColor: "gray",
     padding: 10,
-    justifyContent: "center",
     borderRadius: 2,
     width: width - 10,
     marginTop: 4,
