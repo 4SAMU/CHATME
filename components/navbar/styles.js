@@ -15,7 +15,8 @@ const navStyles = StyleSheet.create({
     fontWeight: "bold",
   },
   drawer:{
-    
+    backgroundColor: "#FFBB36",
+
   }
 });
 
