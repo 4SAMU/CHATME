@@ -4,7 +4,7 @@ const navStyles = StyleSheet.create({
   navbar: {
     height: 50,
     backgroundColor: "yellow",
-    justifyContent: "spa",
+    justifyContent: "space-a",
   },
   text: {
     color: "white",
