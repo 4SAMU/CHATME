@@ -1,5 +1,5 @@
-import React from 'react';
-import {StyleSheet, Text, SafeAreaView} from 'react-native';
+import React from "react";
+import { StyleSheet, Text, SafeAreaView } from "react-native";
 
 const App = () => {
   return (
@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 25,
-    fontWeight: '500',
-    paddingLeft:'50'
+    fontWeight: "500",
+    paddingLeft: "50",
   },
 });
 
