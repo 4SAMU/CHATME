@@ -11,6 +11,7 @@ const TextInputExample = () => {
         style={styles.input}
         onChangeText={onChangeText}
         value={text}
+        keyboardType
       />
       <TextInput
         style={styles.input}
