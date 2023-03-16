@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const navStyles = StyleSheet.create({
   navbar: {
     height: 50,
-    backgroundColor: "yellow",
+    backgroundColor: "#030C1A",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
