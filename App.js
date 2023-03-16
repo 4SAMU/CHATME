@@ -10,7 +10,9 @@ const App = () => {
 };
 
 const styles=StyleSheet.create({
-  container:
+  container:{
+    
+  }
 })
 
 export default App;
