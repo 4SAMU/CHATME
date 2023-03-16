@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const dmStyles = StyleSheet.create({
   container: {
-    backgroundColor: "#030C1A",
+    backgroundColor: "red",
     margin: 10,
     width:230
   },
