@@ -3,7 +3,7 @@ import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable } from "react-nati
 import { Naame } from "./zip";
 
 export default App = () => (
-  let data=Naame();
+  let x=Naame();
 
 
   <SafeAreaView style={styles.container}>
