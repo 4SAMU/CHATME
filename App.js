@@ -4,8 +4,7 @@ import { SafeAreaView, View } from 'react-native/types'
 const App = () => {
   return (
     <SafeAreaView>
-      <View></View>
-      
+      <View></View>      
     </SafeAreaView>
   )
 }
