@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Alert,
   Pressable,
   SafeAreaView,
   StatusBar,
@@ -11,7 +12,7 @@ import { Naame } from "./zip";
 const App = () => {
   function onPressFunction() {
     let x = Naame();
-    console.log(x);
+    Alert(x);
   }
 
   return (
