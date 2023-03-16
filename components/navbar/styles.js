@@ -8,11 +8,11 @@ const navStyles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     padding: 10,
-    color: '',
+    color: '#fff',
 
   },
   text: {
-    color: '',
+    color: '#fff',
     fontSize: 20,
     fontWeight: "bold",
   },
