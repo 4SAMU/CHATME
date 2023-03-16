@@ -6,7 +6,6 @@ import {
   SafeAreaView,
   SectionList,
   StatusBar,
-  Button,
 } from "react-native";
 
 const DATA = [
