@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     backgroundColor: "blue",
     width: "100%",
-    he
+    height:"100"
   },
   title: {
     fontSize: 24,
