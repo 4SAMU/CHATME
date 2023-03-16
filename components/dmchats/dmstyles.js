@@ -16,6 +16,7 @@ const dmStyles = StyleSheet.create({
   text: {
     color: "#fff",
   },
+  bo
 });
 
 export default dmStyles;
