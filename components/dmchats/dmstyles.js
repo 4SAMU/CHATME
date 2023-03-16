@@ -4,7 +4,7 @@ const dmStyles = StyleSheet.create({
   container: {
     backgroundColor: "red",
     marginTop: 50,
-    width: 100%,
+    width: "100%",
     height: 200,
     marginLeft: 0,
   },
