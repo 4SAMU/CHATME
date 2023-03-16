@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     paddingTop: StatusBar.currentHeight,
     marginHorizontal: 16,
     alignItems:"center"
+    
   },
   item: {
     backgroundColor: "#f9c2ff",
