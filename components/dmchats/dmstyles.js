@@ -22,7 +22,7 @@ const dmStyles = StyleSheet.create({
     paddingLeft: 10,
     borderRadius: 2,
     width: width - 10,
-    marginTop: 4,
+    marginTop: 10,
   },
   userimg: {
     width: 50,
