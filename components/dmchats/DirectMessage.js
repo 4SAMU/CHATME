@@ -12,6 +12,9 @@ export const DirectMessage = () => {
         <View style={dmStyles.box}>
           <Text style={dmStyles.text}>Mama</Text>
         </View>
+        <View style={dmStyles.box}>
+          <Text style={dmStyles.text}>Mama</Text>
+        </View>
       </View>
     </View>
   );
