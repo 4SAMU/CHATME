@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   SectionList,
   StatusBar,
+  Button,
 } from "react-native";
 
 const DATA = [
@@ -29,7 +30,7 @@ const DATA = [
 
 export default App = () => (
   <SafeAreaView style={styles.container}>
-    <
+    <Button
     <SectionList
       sections={DATA}
       keyExtractor={(item, index) => item + index}
