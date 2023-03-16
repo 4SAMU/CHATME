@@ -18,7 +18,6 @@ const dmStyles = StyleSheet.create({
   box: {
     height: 50,
     backgroundColor: "gray",
-    padding: 10,
     borderRadius: 2,
     width: width - 10,
     marginTop: 4,
