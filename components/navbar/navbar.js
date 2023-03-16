@@ -18,12 +18,13 @@ export const Navbar = () => {
   };
 
   return (
-    <DrawerLayoutAndroid style={navStyles.drawer}
+    <DrawerLayoutAndroid
+      style={navStyles.drawer}
       ref={drawerRef}
       drawerWidth={250}
       drawerPosition="right"
       renderNavigationView={() => (
-        <View >
+        <View>
           <Text>Drawer content</Text>
         </View>
       )}
