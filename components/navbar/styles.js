@@ -10,6 +10,7 @@ const navStyles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     padding: 10,
+    width: "100%",
   },
   navText: {
     color: "#fff",
