@@ -14,7 +14,7 @@ const navStyles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
   },
-  drawer
+  drawer:{}
 });
 
 export default navStyles;
