@@ -11,7 +11,6 @@ import Icon from "react-native-vector-icons/Feather";
 import { DirectMessage } from "../dmchats/DirectMessage";
 const { width } = Dimensions.get("window");
 const { height } = Dimensions.get("window");
-console.log("height", height - 50);
 const DmsHeight = height - 50;
 
 export const MainEntry = () => {
