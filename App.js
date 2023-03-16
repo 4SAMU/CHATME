@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, StatusBar, StyleSheet} from "react-native";
+import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
 import { Navbar } from "./components/navbar/navbar";
 
 const App = () => {
@@ -18,5 +18,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "black",
     position: "absolute",
+  },
+  content: {
+    zIndex: 0,
+    width: "100%", // specify the width to fill the screen
   },
 });
