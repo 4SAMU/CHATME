@@ -14,7 +14,6 @@ const { height } = Dimensions.get("window");
 const DmsHeight = height - 50;
 console.log("height", DmsHeight);
 
-
 export const MainEntry = () => {
   const drawerRef = useRef(null);
 
