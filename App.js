@@ -12,7 +12,7 @@ import { Naame } from "./zip";
 const App = () => {
   function onPressFunction() {
     let x = Naame();
-    Alert.al(x);
+    Alert.alert(x);
   }
 
   return (
