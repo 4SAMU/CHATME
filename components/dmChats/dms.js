@@ -9,6 +9,6 @@ export const dms = () => {
       <View style={DmStyles.box}></View>
       <View style={DmStyles.box}></View>
       <View style={DmStyles.box}></View>
-    </View>
+    </ScrollView>
   );
 };
