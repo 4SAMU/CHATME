@@ -8,7 +8,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="default" />
       <Navbar />
-      <View style={styles.mydata}>
+      <View style={styles.content}>
         <DirectMessage />
       </View>
     </SafeAreaView>
@@ -22,7 +22,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "black",
   },
-  mydata: {
+  content: {
     flex: 1,
+    width: "100%", // specify the width to fill the screen
   },
 });
