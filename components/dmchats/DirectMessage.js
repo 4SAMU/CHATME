@@ -7,6 +7,14 @@ const DirectMessage = () => {
     <ScrollView style={dmStyles.container}>
       <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
+        <Text style={dmStyles.text}>Mama</Text>
       </View>
       
     </ScrollView>
