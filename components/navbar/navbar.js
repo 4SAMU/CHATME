@@ -4,7 +4,9 @@ import { View } from 'react-native/types'
 export const navbar = () => {
 
   return (
-    <View></View>
+    <View>
+      
+    </View>
   )
 }
 
