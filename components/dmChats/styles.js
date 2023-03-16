@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 const DmStyles = StyleSheet.create({
-  constainer: {
+  container: {
     flex: 1,
   },
   box: {
