@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     fontSize: 32,
     backgroundColor: "blue",
     width: "100%",
+    hw
   },
   title: {
     fontSize: 24,
