@@ -24,11 +24,11 @@ export const Navbar = () => {
       drawerPosition="right"
       renderNavigationView={() => (
         <View style={navStyles.drawer}>
-          <Text style={na}>Setting</Text>
-          <Text style={na}>Group</Text>
-          <Text style={na}>DMs</Text>
-          <Text style={na}>Bot</Text>
-          <Text style={na}>Log out</Text>
+          <Text style={navStyles.}>Setting</Text>
+          <Text style={navStyles.}>Group</Text>
+          <Text style={navStyles.}>DMs</Text>
+          <Text style={navStyles.}>Bot</Text>
+          <Text style={navStyles.}>Log out</Text>
         </View>
       )}
     >
