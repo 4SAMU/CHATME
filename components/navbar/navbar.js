@@ -1,11 +1,11 @@
 import React from "react";
 import { Dimensions, Text, View } from "react-native";
 import navStyles from "./styles";
-const { width } = Dimensions.get('window');
+const { width } = Dimensions.get("window");
 
 export const Navbar = () => {
   return (
-    <View styles={[navStyles.navbar, {width}]}>
+    <View styles={[navStyles.navbar, { width }]}>
       <Text styles={navStyles.text}>hello</Text>
     </View>
   );
