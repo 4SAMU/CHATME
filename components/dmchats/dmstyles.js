@@ -14,7 +14,6 @@ const dmStyles = StyleSheet.create({
   text: {
     marginTop: 0,
     color: "#fff",
-    marginLeft: 70,
   },
   box: {
     flexDirection: "row",
