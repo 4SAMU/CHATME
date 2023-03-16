@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View style={{[styles.navbar, { width }]}}>
+      <View style={{[styles.navbar, { width }]}>
         <Pressable onPress={onPressFunction}>
           <Text>I'm pressable!</Text>
         </Pressable>
