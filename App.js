@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     padding: 20,
     marginVertical: 8,
   },
-  header: {
+  nav: {
     fontSize: 32,
     backgroundColor: "blue",
     width:"100"
