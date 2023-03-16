@@ -24,7 +24,6 @@ const navStyles = StyleSheet.create({
     backgroundColor: "#FFBB36",
     padding: 20,
     fontWeight: "bold",
-
   },
 });
 
