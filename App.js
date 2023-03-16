@@ -19,7 +19,7 @@ const App = () => {
             <Text style={styles.modalText}>Hello World!</Text>
             <Pressable
               style={[styles.button, styles.buttonClose]}
-              onPress={() => setModalVisible(!modalVisible)}
+              onPress={() => Alert.alert("Modal has been closed.")}
             >
               <Text style={styles.textStyle}>Hide Modal</Text>
             </Pressable>
