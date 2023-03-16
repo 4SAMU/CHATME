@@ -1,7 +1,6 @@
 import React from "react";
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
 import { DirectMessage } from "./components/dmchats/DirectMessage";
-import dmStyles from "./components/dmchats/dmstyles";
 import { Navbar } from "./components/navbar/navbar";
 
 const App = () => {
@@ -9,17 +8,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="default" />
       <Navbar />
-      <View style={dmStyles.container}>
-      <View style={dmStyles.items}>
-        <Text style={dmStyles.text}>Mama</Text>
-      </View>
-      <View style={dmStyles.items}>
-        <Text style={dmStyles.text}>Mama</Text>
-      </View>
-      <View style={dmStyles.items}>
-        <Text style={dmStyles.text}>Mama</Text>
-      </View>
-    </View>
+     
     </SafeAreaView>
   );
 };
