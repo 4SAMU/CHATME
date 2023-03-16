@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const dmStyles = StyleSheet.create({
   container: {
     backgroundColor: "red",
-    margin: 60,
+    margin: 50,
     width: 230,
     height: 200,
   },
