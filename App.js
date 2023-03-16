@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet, View } from "react-native";
 
 const App = () => {
   return (
-    <SafeAreaView styles={styles}>
+    <SafeAreaView styles={styles.container}>
       <View></View>
     </SafeAreaView>
   );
