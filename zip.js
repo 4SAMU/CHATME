@@ -7,4 +7,4 @@ function Naame() {
   return result;
 }
 
-Naame();
+export Naame();
