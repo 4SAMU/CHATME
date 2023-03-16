@@ -5,7 +5,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar barStyle="default" />
-      <
+      <Ma
     </SafeAreaView>
   );
 };
