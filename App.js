@@ -4,9 +4,9 @@ import { Navbar } from "./components/navbar/navbar";
 
 const App = () => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Navbar />
-    </View>
+    </SafeAreaView>
   );
 };
 
