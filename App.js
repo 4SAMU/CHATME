@@ -29,9 +29,9 @@ const DATA = [
 
 export default App = () => (
   <SafeAreaView style={styles.container}>
-   <Pressable onPress={onPressFunction}>
-  <Text>I'm pressable!</Text>
-</Pressable>
+    <Pressable onPress={onPressFunction}>
+      <Text>I'm pressable!</Text>
+    </Pressable>
   </SafeAreaView>
 );
 
