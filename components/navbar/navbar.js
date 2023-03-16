@@ -8,7 +8,6 @@ import {
 } from "react-native";
 import navStyles from "./styles";
 import Icon from "react-native-vector-icons/Feather";
-import { DirectMessage } from "../dmchats/DirectMessage";
 const { width } = Dimensions.get("window");
 const { height } = Dimensions.get("window");
 
@@ -53,7 +52,6 @@ export const Navbar = () => {
           </View>
         </TouchableOpacity>
       </View>
-      <DirectMessage/>
     </DrawerLayoutAndroid>
   );
 };
