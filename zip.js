@@ -1,4 +1,4 @@
-function Naame() {
+export function Naame() {
   let A = [{ A: "A" }, { B: "B" }];
   let B = [[{ z: "a" }], [{ y: "y" }]];
 
