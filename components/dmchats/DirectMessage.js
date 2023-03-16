@@ -4,7 +4,7 @@ import dmStyles from "./dmstyles";
 
 const DirectMessage = () => {
   return (
-    
+    <View style={dmStyles.container}>
       <ScrollView
         contentContainerStyle={[dmStyles.items, { alignItems: "center" }]}
       >
@@ -51,6 +51,7 @@ const DirectMessage = () => {
           <Text style={dmStyles.text}>Mama</Text>
         </View>
       </ScrollView>
+    </View>
   );
 };
 
