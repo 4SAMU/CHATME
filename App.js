@@ -1,72 +1,50 @@
-import React, {useRef, useState} from 'react';
+import React, {useState} from 'react';
 import {
-  Button,
-  DrawerLayoutAndroid,
   Text,
-  StyleSheet,
   View,
+  StyleSheet,
+  TouchableNativeFeedback,
+  StatusBar,
 } from 'react-native';
 
 const App = () => {
-  const drawer = useRef(null);
-  const [drawerPosition, setDrawerPosition] = useState('left');
-  const changeDrawerPosition = () => {
-    if (drawerPosition === 'left') {
-      setDrawerPosition('right');
-    } else {
-      setDrawerPosition('left');
-    }
-  };
-
-  const navigationView = () => (
-    <View style={[styles.container, styles.navigationContainer]}>
-      <Text style={styles.paragraph}>I'm in the Drawer!</Text>
-      <Button
-        title="Close drawer"
-        onPress={() => drawer.current.closeDrawer()}
-      />
+  const [rippleColor, setRippleColor] = useState(randomHexColor());
+  const [rippleOverflow, setRippleOverflow] = useState(false);
+  return (
+    <View style={styles.container}>
+      <TouchableNativeFeedback
+        onPress={() => {
+          setRippleColor(randomHexColor());
+          setRippleOverflow(!rippleOverflow);
+        }}
+        background={TouchableNativeFeedback.Ripple(
+          rippleColor,
+          rippleOverflow,
+        )}>
+        <View style={styles.touchable}>
+          <Text style={styles.text}>TouchableNativeFeedback</Text>
+        </View>
+      </TouchableNativeFeedback>
     </View>
   );
+};
 
-  return (
-    <DrawerLayoutAndroid
-      ref={drawer}
-      drawerWidth={300}
-      drawerPosition={drawerPosition}
-      renderNavigationView={navigationView}>
-      <View style={styles.container}>
-        <Text style={styles.paragraph}>Drawer on the {drawerPosition}!</Text>
-        <Button
-          title="Change Drawer Position"
-          onPress={() => changeDrawerPosition()}
-        />
-        <Text style={styles.paragraph}>
-          Swipe from the side or press button below to see it!
-        </Text>
-        <Button
-          title="Open drawer"
-          onPress={() => drawer.current.openDrawer()}
-        />
-      </View>
-    </DrawerLayoutAndroid>
-  );
+const randomHexColor = () => {
+  return '#000000'.replace(/0/g, function () {
+    return Math.round(Math.random() * 16).toString(16);
+  });
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
-    padding: 16,
-  },
-  navigationContainer: {
+    paddingTop: StatusBar.currentHeight,
     backgroundColor: '#ecf0f1',
+    padding: 8,
   },
-  paragraph: {
-    padding: 16,
-    fontSize: 15,
-    textAlign: 'center',
-  },
+  touchable: {flex: 0.5, borderColor: 'black', borderWidth: 1},
+  text: {alignSelf: 'center'},
 });
 
 export default App;
