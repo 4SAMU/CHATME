@@ -6,7 +6,6 @@ const navStyles = StyleSheet.create({
     width: "100%",
     height: 50,
     backgroundColor: "#FFBB36",
-    flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     padding: 10,
