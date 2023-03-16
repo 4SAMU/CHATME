@@ -17,6 +17,7 @@ const dmStyles = StyleSheet.create({
     marginLeft: 70,
   },
   box: {
+    flexDirection: "row",
     height: 50,
     backgroundColor: "gray",
     paddingLeft: 10,
