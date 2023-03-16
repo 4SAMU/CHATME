@@ -4,7 +4,7 @@ import DmStyles from "./styles";
 
 export const dms = () => {
   return (
-    <View style={DmStyles.}>
+    <View style={DmStyles.constainer}>
       <View></View>
     </View>
   );
