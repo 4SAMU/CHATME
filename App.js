@@ -27,7 +27,7 @@ const DATA = [
   },
 ];
 
-epxort const App = () => (
+exort const App = () => (
   <SafeAreaView style={styles.container}>
     <SectionList
       sections={DATA}
