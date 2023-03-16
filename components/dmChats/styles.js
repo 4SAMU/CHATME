@@ -4,4 +4,4 @@ const DmStyles = StyleSheet.create({
   
 })
 
-export default styles
+export default DmStyles
