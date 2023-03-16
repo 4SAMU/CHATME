@@ -1,10 +1,10 @@
 import React from 'react'
-import { SafeAreaView } from 'react-native/types'
+import { SafeAreaView, View } from 'react-native/types'
 
 const App = () => {
   return (
     <SafeAreaView>
-      
+      <View
       
     </SafeAreaView>
   )
