@@ -1,6 +1,5 @@
 import React from "react";
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from "react-native";
-import { DirectMessage } from "./components/dmchats/DirectMessage";
 import { Navbar } from "./components/navbar/navbar";
 
 const App = () => {
