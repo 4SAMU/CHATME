@@ -5,7 +5,7 @@ import { Naame } from "./zip";
 const App = () => {
   function onPressFunction() {
     let x = Naame();
-    console(x);
+    console.log(x);
   }
 
   return (
