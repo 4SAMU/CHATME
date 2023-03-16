@@ -14,4 +14,4 @@ const navStyles = StyleSheet.create({
   },
 });
 
-export default styles;
+export default navStyles;
