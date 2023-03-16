@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { ScrollView, View } from "react-native";
 import DmStyles from "./styles";
 
 export const DirectMessage = () => {
