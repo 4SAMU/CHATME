@@ -3,7 +3,9 @@ import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable } from "react-nati
 import { Naame } from "./zip";
 
 export default App = () => (
- fun
+ function name(params) {
+  
+ }
 
 
 
