@@ -7,7 +7,7 @@ export const dms = () => {
     <ScrollView style={DmStyles.container}>
       <View style={DmStyles.box}>mama</View>
       <View style={DmStyles.box}>baba</View>
-      <View style={DmStyles.box}></View>
+      <View style={DmStyles.box}>mtoto</View>
       <View style={DmStyles.box}></View>
     </ScrollView>
   );
