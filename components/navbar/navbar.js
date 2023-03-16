@@ -1,5 +1,11 @@
 import React, { useRef } from "react";
-import { Dimensions, Text, TouchableOpacity, View, DrawerLayoutAndroid } from "react-native";
+import {
+  Dimensions,
+  Text,
+  TouchableOpacity,
+  View,
+  DrawerLayoutAndroid,
+} from "react-native";
 import navStyles from "./styles";
 import Icon from "react-native-vector-icons/Feather";
 const { width } = Dimensions.get("window");
@@ -23,7 +29,6 @@ export const Navbar = () => {
       )}
     >
       <View style={[navStyles.navbar, { width }]}>
-        
         <Text style={navStyles.navText}>ChatMe</Text>
         <TouchableOpacity onPress={openDrawer}>
           <View>
