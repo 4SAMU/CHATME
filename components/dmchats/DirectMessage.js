@@ -2,7 +2,6 @@ import React from "react";
 import { Dimensions, Text, View } from "react-native";
 import dmStyles from "./dmstyles";
 
-
 const DirectMessage = () => {
   return (
     <View style={dmStyles.container}>
