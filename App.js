@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   mydata: {
-    flex:1
+    flex:1,
     height: 50,
     backgroundColor: "red",
   },
