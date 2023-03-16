@@ -7,7 +7,7 @@ import {
   DrawerLayoutAndroid,
 } from "react-native";
 import navStyles from "./styles";
-import Icon from "react-native-vector-icons/Feather";
+import Icon from "react-native-vector-icons/FontAwesome5";
 const { width } = Dimensions.get("window");
 
 export const Navbar = () => {
