@@ -1,1 +1,3 @@
-funct
+function name(params) {
+    
+}
