@@ -7,4 +7,4 @@ function Naame() {
   return result;
 }
 
-export defaNaame();
+export default Naame();
