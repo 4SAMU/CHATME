@@ -3,7 +3,7 @@ import { View } from "react-native";
 
 export const dms = () => {
   return (
-    <View sty>
+    <View style=>
       <View></View>
     </View>
   );
