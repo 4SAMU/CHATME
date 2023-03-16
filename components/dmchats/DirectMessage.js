@@ -8,12 +8,7 @@ const DirectMessage = () => {
       <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
-      <View style={dmStyles.items}>
-        <Text style={dmStyles.text}>Mama</Text>
-      </View>
-      <View style={dmStyles.items}>
-        <Text style={dmStyles.text}>Mama</Text>
-      </View>
+      
     </ScrollView>
   );
 };
