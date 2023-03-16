@@ -1,5 +1,12 @@
 import React from "react";
-import { Alert, Pressable, SafeAreaView, StatusBar, StyleSheet, Text } from "react-native";
+import {
+  Alert,
+  Pressable,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+} from "react-native";
 import { Naame } from "./zip";
 
 const App = () => {
