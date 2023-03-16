@@ -16,8 +16,8 @@ const navStyles = StyleSheet.create({
   },
   drawer: {
     flex: 1,
-    backgroundColor: "#000",
-
+    backgroundColor: "#FFBB36",
+    
   },
 });
 
