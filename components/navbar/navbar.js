@@ -23,11 +23,7 @@ export const Navbar = () => {
       )}
     >
       <View style={[navStyles.navbar, { width }]}>
-        <TouchableOpacity onPress={openDrawer}>
-          <View>
-            <Icon name="menu" size={25} color="#fff" />
-          </View>
-        </TouchableOpacity>
+        
         <Text style={navStyles.navText}>ChatMe</Text>
       </View>
     </DrawerLayoutAndroid>
