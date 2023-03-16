@@ -4,7 +4,7 @@ import navStyles from "./styles";
 
 export const navbar = () => {
   return (
-    <View styles={navStyles}>
+    <View styles={navStyles.}>
       <Text></Text>
     </View>
   );
