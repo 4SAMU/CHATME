@@ -14,8 +14,6 @@ const App = () => {
       </Pressable>
     </SafeAreaView>
   );
-
-  
 };
 const styles = StyleSheet.create({
   container: {
