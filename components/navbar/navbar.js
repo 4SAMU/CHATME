@@ -18,7 +18,7 @@ export const Navbar = () => {
   };
 
   return (
-    <DrawerLayoutAndroid
+    <DrawerLayoutAndroid style={navStyles.drawer}
       ref={drawerRef}
       drawerWidth={250}
       drawerPosition="right"
