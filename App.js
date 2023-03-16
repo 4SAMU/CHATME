@@ -10,7 +10,7 @@ const App = () => {
 };
 
 const styles=StyleSheet.create({
-  
+  consta
 })
 
 export default App;
