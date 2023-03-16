@@ -1,5 +1,5 @@
 import React from "react";
-import { Pressable, SafeAreaView, StyleSheet } from "react-native/types";
+import { Pressable, SafeAreaView, StyleSheet } from "react-native";
 
 const App = () => {
   function onPressFunction() {
