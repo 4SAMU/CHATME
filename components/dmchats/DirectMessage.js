@@ -4,11 +4,13 @@ import dmStyles from "./dmstyles";
 
 export const DirectMessage = () => {
   return (
-    <View><ScrollView style={dmStyles.container}>
-    <View style={dmStyles.box}>mama</View>
-    <View style={dmStyles.box}>baba</View>
-    <View style={dmStyles.box}>mtoto</View>
-    <View style={dmStyles.box}>mjukuu</View>
-  </ScrollView></View>
+    <View>
+      <ScrollView style={dmStyles.container}>
+        <View style={dmStyles.box}>mama</View>
+        <View style={dmStyles.box}>baba</View>
+        <View style={dmStyles.box}>mtoto</View>
+        <View style={dmStyles.box}>mjukuu</View>
+      </ScrollView>
+    </View>
   );
 };
