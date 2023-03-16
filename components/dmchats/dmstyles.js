@@ -12,7 +12,6 @@ const dmStyles = StyleSheet.create({
   },
   items: {
     height: DmsHeight - 60,
-    backgroundColor: "blue",
   },
   text: {
     color: "#fff",
