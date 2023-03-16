@@ -5,8 +5,7 @@ import dmStyles from "./dmstyles";
 const DirectMessage = () => {
   return (
     <View style={dmStyles.container}>
-      <ScrollView></ScrollView>
-      <View style={dmStyles.items}>
+      <ScrollView style={dmStyles.items}>
         <View style={dmStyles.box}>
           <Text style={dmStyles.text}>Mama</Text>
         </View>
@@ -49,7 +48,7 @@ const DirectMessage = () => {
         <View style={dmStyles.box}>
           <Text style={dmStyles.text}>Mama</Text>
         </View>
-      </View>
+      </ScrollView>
     </View>
   );
 };
