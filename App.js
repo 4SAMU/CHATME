@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
   },
   mydata:{
-    
+    ba
   }
 });
