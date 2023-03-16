@@ -10,9 +10,9 @@ const dmStyles = StyleSheet.create({
     height: 60,
     backgroundColor: "#030C1A",
   },
-  text:{
-    color:"#fff"
-  }
+  text: {
+    color: "#fff",
+  },
 });
 
 export default dmStyles;
