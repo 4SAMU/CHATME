@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 const DmStyles = StyleSheet.create({
   container: {
-    marginTop:60
+    marginTop:60,
     flex: 1,
     display: "flex",
   },
