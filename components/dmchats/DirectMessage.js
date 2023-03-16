@@ -16,7 +16,6 @@ const DirectMessage = () => {
         <Text style={dmStyles.text}>Mama</Text>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
-      
     </ScrollView>
   );
 };
