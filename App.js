@@ -3,9 +3,9 @@ import { StyleSheet, Text, SafeAreaView, StatusBar, Pressable } from "react-nati
 
 export default App = () => (
 
-  
+
   <SafeAreaView style={styles.container}>
-    <Pressable onPress={onPressFunction}>
+    <Pressable onPress={}>
       <Text>I'm pressable!</Text>
     </Pressable>
   </SafeAreaView>
