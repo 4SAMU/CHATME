@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
   navbar: {
-    width: currentWidth,
+    width: ,
     height: 100,
     backgroundColor: "blue",
     alignItems: "center",
