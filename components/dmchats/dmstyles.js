@@ -3,7 +3,6 @@ import { StyleSheet } from "react-native";
 const dmStyles = StyleSheet.create({
   container: {
     marginTop: 10,
-    display: "flex",
   },
   box: {
     height: 60,
