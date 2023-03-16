@@ -28,7 +28,7 @@ export const Navbar = () => {
             <Icon name="settings" size={25} color="#fff" /> Setting
           </Text>
           <Text style={navStyles.drawerText}>
-            <Icon name="users" size={25} color="#fff" />
+            <Icon name="users" size={25} color="#fff" />{}
             Group
           </Text>
           <Text style={navStyles.drawerText}>DMs</Text>
