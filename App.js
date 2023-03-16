@@ -29,18 +29,9 @@ const DATA = [
 
 export default App = () => (
   <SafeAreaView style={styles.container}>
-    <SectionList
-      sections={DATA}
-      keyExtractor={(item, index) => item + index}
-      renderItem={({ item }) => (
-        <View style={styles.item}>
-          <Text style={styles.title}>{item}</Text>
-        </View>
-      )}
-      renderSectionHeader={({ section: { title } }) => (
-        <Text style={styles.header}>{title}</Text>
-      )}
-    />
+   <Pressable onPress={onPressFunction}>
+  <Text>I'm pressable!</Text>
+</Pressable>
   </SafeAreaView>
 );
 
