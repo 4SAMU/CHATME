@@ -4,6 +4,7 @@ const navStyles = StyleSheet.create({
   navbar: {
     height: 50,
     backgroundColor: "yellow",
+    alignItems: "center",
     justifyContent: "center",
   },
   text: {
