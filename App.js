@@ -6,6 +6,7 @@ import {
   StatusBar,
   StyleSheet,
   Text,
+  View,
 } from "react-native";
 import { Naame } from "./zip";
 
@@ -17,7 +18,7 @@ const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Vi
+      <View
       <Pressable onPress={onPressFunction}>
         <Text>I'm pressable!</Text>
       </Pressable>
