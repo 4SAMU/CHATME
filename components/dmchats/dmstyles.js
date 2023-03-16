@@ -26,7 +26,7 @@ const dmStyles = StyleSheet.create({
   userimg: {
     width: 50,
     height: 50,
-    bord
+    borderRadius
   },
 });
 
