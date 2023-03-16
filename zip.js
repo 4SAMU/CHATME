@@ -1,4 +1,4 @@
-function name() {
+function ame() {
   let A = [{ A: "A" }, { B: "B" }];
   let B = [[{ z: "a" }], [{ y: "y" }]];
 
