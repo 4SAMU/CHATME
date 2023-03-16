@@ -1,5 +1,6 @@
 import React from "react";
 import { Pressable, SafeAreaView, StatusBar, StyleSheet, Text } from "react-native";
+import { Naame } from "./zip";
 
 const App = () => {
   function onPressFunction() {
