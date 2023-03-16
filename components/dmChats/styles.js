@@ -1,10 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const DmStyles = StyleSheet.create({
-  box:{
-    height:60
-  }
+  box: {
+    height: 60,
+  },
+});
 
-})
-
-export default DmStyles
+export default DmStyles;
