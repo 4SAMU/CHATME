@@ -6,8 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
         <ImageBackground source={image} resizeMode="cover" style={styles.image}></ImageBackground>
-      <View style={styles.nav}></View>
-      
+      <View style={styles.nav}></View>      
       <StatusBar style="auto" />
     </View>
   );
