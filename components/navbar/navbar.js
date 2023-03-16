@@ -9,7 +9,7 @@ import {
 import navStyles from "./styles";
 import Icon from "react-native-vector-icons/Feather";
 const { width } = Dimensions.get("window");
-const { width } = Dimensions.get("window");
+const { height } = Dimensions.get("window");
 
 export const Navbar = () => {
   const drawerRef = useRef(null);
