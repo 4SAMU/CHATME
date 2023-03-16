@@ -14,7 +14,7 @@ const dmStyles = StyleSheet.create({
   text: {
     marginTop: 0,
     color: "#fff",
-    marginLeft: 50,
+    marginLeft: 70,
   },
   box: {
     height: 50,
