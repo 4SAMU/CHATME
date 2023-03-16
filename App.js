@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     alignItems: "center",
     justifyContent: "center",
-    paddingTop: StatusBar.currentHeight,
+    paddingTop: statusbar.currentHeight,
   },
   Text: {
     color: "#fff",
