@@ -9,10 +9,10 @@ export const Navbar = () => {
     <View style={[navStyles.navbar, { width }]}>
       <Text style={navStyles.navText}>ChatMe</Text>
       <TouchableOpacity onPress={() => console.log("Menu icon pressed")}>
-      <View>
-        <Icon name="menu" size={25} color="#fff" />
-      </View>
-    </TouchableOpacity>
+        <View>
+          <Icon name="menu" size={25} color="#fff" />
+        </View>
+      </TouchableOpacity>
     </View>
   );
 };
