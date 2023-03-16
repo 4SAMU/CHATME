@@ -17,7 +17,7 @@ const navStyles = StyleSheet.create({
   drawer: {
     flex: 1,
     flexDirection: "column",
-    justifyContent: "cw",
+    justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFBB36",
     padding: 20,
