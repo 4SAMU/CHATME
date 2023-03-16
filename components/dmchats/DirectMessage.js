@@ -5,13 +5,13 @@ import dmStyles from "./dmstyles";
 export const DirectMessage = () => {
   return (
     <View style={dmStyles.container}>
-      <View style={dmStyles.box}>
+      <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
-      <View style={dmStyles.box}>
+      <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
-      <View style={dmStyles.box}>
+      <View style={dmStyles.items}>
         <Text style={dmStyles.text}>Mama</Text>
       </View>
     </View>
