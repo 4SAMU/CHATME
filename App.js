@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   nav: {
     fontSize: 32,
     backgroundColor: "blue",
-    width: "100",
+    width: "100%",
   },
   title: {
     fontSize: 24,
