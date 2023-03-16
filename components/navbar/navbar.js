@@ -26,7 +26,7 @@ export const Navbar = () => {
         <View style={navStyles.drawer}>
           <Text>Setting</Text>
           <Text>Group</Text>
-          <Text>DM</Text>
+          <Text>DMs</Text>
           <Text>Bot</Text>
           <Text>Log out</Text>
         </View>
