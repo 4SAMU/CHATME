@@ -12,7 +12,7 @@ import { DirectMessage } from "../dmchats/DirectMessage";
 const { width } = Dimensions.get("window");
 const { height } = Dimensions.get("window");
 const DmsHeight = height - 50;
-console.log("height", dem);
+console.log("height", DmsHeight);
 
 
 export const MainEntry = () => {
