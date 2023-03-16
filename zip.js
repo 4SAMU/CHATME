@@ -6,3 +6,9 @@ export function Naame() {
   console.log(result);
   return result;
 }
+
+
+function name() {
+    let x=Naame();
+    Alert.alert(x)
+   }
