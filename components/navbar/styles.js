@@ -2,12 +2,14 @@ import { StyleSheet } from "react-native";
 
 const navStyles = StyleSheet.create({
   navbar: {
+    flex: 1,
+    marginTop: 22,
     height: 50,
     backgroundColor: "#FFBB36",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: 10,
+    width: "100%",
   },
   navText: {
     color: "#fff",
@@ -15,12 +17,12 @@ const navStyles = StyleSheet.create({
     fontWeight: "bold",
   },
   drawer: {
-    flex: 1,
     backgroundColor: "#FFBB36",
     padding: 20,
   },
   drawerText: {
     color: "#fff",
+    fontSize: 20,
     padding: 20,
     fontWeight: "bold",
   },
