@@ -9,7 +9,6 @@ const App = () => {
       <StatusBar barStyle="default" />
       <Navbar />
       <DMs />
-      <
     </SafeAreaView>
   );
 };
