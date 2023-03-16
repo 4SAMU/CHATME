@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "black",
-    position: "absol",
+    position: "absolute",
   },
   content: {
     zIndex: 0,
