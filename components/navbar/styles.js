@@ -11,7 +11,7 @@ const navStyles = StyleSheet.create({
 
   },
   text: {
-    textDecorationColor:""
+    textDecorationColor:"whi"
     fontSize: 20,
     fontWeight: "bold",
   },
