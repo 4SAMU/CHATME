@@ -4,7 +4,7 @@ import {
   Text,
   View,
   SafeAreaView,
-  SectionList,
+  
   StatusBar,
 } from "react-native";
 
