@@ -2,7 +2,7 @@ import React from "react";
 import { View } from "react-native";
 import DmStyles from "./styles";
 
-export const DMs = () => {
+export const Dms = () => {
   return (
     <ScrollView style={DmStyles.container}>
       <View style={DmStyles.box}>mama</View>
