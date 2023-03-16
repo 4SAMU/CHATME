@@ -1,3 +1,3 @@
 # ChatMe
 
- npm i react-native-vector-icons
+ yarn add react-native-vector-icons
