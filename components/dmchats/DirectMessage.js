@@ -1,9 +1,7 @@
 import React from "react";
 import { Dimensions, Text, View } from "react-native";
 import dmStyles from "./dmstyles";
-const { height } = Dimensions.get("window");
-const DmsHeight = height - 50;
-console.log("height", DmsHeight);
+
 
 const DirectMessage = () => {
   return (
