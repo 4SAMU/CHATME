@@ -4,7 +4,6 @@ const DmsHeight = height - 50;
 
 const dmStyles = StyleSheet.create({
   container: {
-    backgroundColor: "red",
     marginTop: 0,
     width: "100%",
     height: DmsHeight,
