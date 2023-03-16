@@ -10,7 +10,6 @@ const App = () => {
       <Navbar />
 
       <View>
-        {" "}
         <DirectMessage />
       </View>
     </SafeAreaView>
