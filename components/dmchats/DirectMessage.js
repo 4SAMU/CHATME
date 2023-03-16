@@ -18,4 +18,4 @@ const DirectMessage = () => {
   );
 };
 
-export 
+export {}
