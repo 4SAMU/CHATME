@@ -33,7 +33,7 @@ const dmStyles = StyleSheet.create({
     borderRadius: 50,
   },
   footer: {
-    bottom: 0,
+    padd: 0,
     fontSize: 10,
     color: "gray",
   },
