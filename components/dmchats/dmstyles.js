@@ -34,7 +34,7 @@ const dmStyles = StyleSheet.create({
   },
   footer: {
     bottom: 5,
-    fontSize:10
+    fontSize: 10,
   },
 });
 
