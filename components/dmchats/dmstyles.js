@@ -31,9 +31,9 @@ const dmStyles = StyleSheet.create({
     height: 50,
     borderRadius: 50,
   },
-  footer:{
-    bottom:5
-  }
+  footer: {
+    bottom: 5,
+  },
 });
 
 export default dmStyles;
