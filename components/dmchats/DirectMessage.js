@@ -46,7 +46,6 @@ const DirectMessage = () => {
           <Text style={dmStyles.text}>Mjukuu</Text>
         </View>
       </ScrollView>
-      <Text style={dmStyles.footer}>samu</Text>
     </View>
   );
 };
